@@ -1,0 +1,113 @@
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 0.9rem;
+  background-color: hsl(0, 0%, 95%);
+  box-sizing: inherit;
+}
+
+.main-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: fit-content;
+  width: 300px;
+  max-width: 310px;
+  margin-top: 70px;
+  box-sizing: border-box;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.icons {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  padding-left: 40px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.text {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 10px 70px 30px 40px;
+  text-align: left;
+  line-height: 1.4em;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  padding: 1em 3em;
+  margin-left: 4em;
+  margin-bottom: 2em;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  border-color: white;
+}
+
+.first {
+  color: hsl(31, 77%, 52%);
+}
+
+.first:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.second {
+  color: hsl(184, 100%, 22%);
+}
+
+.second:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.third {
+  color: hsl(179, 100%, 13%);
+}
+
+.third:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 110px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
